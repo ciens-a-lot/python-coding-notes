@@ -1,0 +1,34 @@
+100 Days of Code - Day One
+--------------------------
+
+Print commands-
+E.g. print("Hello World")
+Double quote in the bracket represensts the string to be outputed
+
+If space is required between strings, it can be added by including a white space before or after the string or anywhere it is required. It can also be added by a whitespace between double quotes and concatinating it between the strings using "+" 
+E.g. print ("Hello" + " " + "World")
+
+Unnecessary indentation in the code can lead to indentation errors.
+
+Taking end user input-
+Input function is used for this functionality
+E.g. input("What is your name?")
+
+This input can be used to directly print user input using string concatination.
+E.g print("Hello " + input("What is your name?"))
+
+Adding comments in the code-
+Comments can be added into the code via the "#". If a block or a line of code needs to be commented out, it can be done via the shortcut "Ctrl + /" after selecting the code.
+
+Variables-
+In simple words variables are a way in which we cans store user input or a predefined input in order to use it later.
+E.g name = input("You Name:")
+
+len() function can be used to find the length of a string.
+
+Variable Naming Rules
+- Make the name is clear and descriptive (readable)
+- No whitespaces in betweenn (use underscores instead)
+- No number in the begining
+- Don't use priviledged words like print or input (or any other reserved words)
+- Ensure that you only call variables that you have declared.
