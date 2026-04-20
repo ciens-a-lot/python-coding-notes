@@ -1,0 +1,71 @@
+100 Days of Code - Day Two
+--------------------------
+(Ignore any typos/grammatical mistakes (if any), just learning things my way without fancy AI formating)
+
+In programming languages, the first position is always 0.
+
+Primitive Data types-
+1. Strings
+2. Integers
+3. Floats
+4. Boolean
+
+Integers means whole numbers. To print these dont include double quotes.
+E.g. print(123 + 345)
+To add commas between the numbers for large integers like - 12,345 use underscores.
+E.g. print(12_345) - but this only for human readability
+
+Float is short for floating point numbers. Basically numbers with a decimal point.
+E.g. print(123.123)
+
+Boolean has only 2 possible values, either true or false.
+E.g. print(True)
+     print(False)
+
+Type Error occurs when one uses a wrong datatype
+E.g. len(1234) - this gives a type error, since len() fucntion only returns the length of an object and this object cannot be integers.
+
+How would you what datatype a pariticular piece of data has ?
+This can be done the type() function.
+E.g. print(type("Hello"))
+
+Datatype Conversion/Casting-
+To turn into integers: int() - E.g. int("123"), not all data in the double quotes can be converted. Like int("abc") - this will retun a Value Error.
+To turn into float: float()
+To turn into string: str()
+To turn into boolean: bool()
+
+Mathematical Operators-
+* - : multiplication
+/- : division
++ : addition
+- : subtraction
+
+Implicit type casting - when python or any coding lanuguage automatcally converts the data type while doing mathemical operations. E.g. print(6/3) gives out 2.0. This can be avoided using the Floor Division operator. E.g. print(6//3). What it does is, it rounds out to the result down to the nearest whole integer.
+
+Exponent operator can be done by using **. E.g. print(2**3), this will return 8 which is 2*2*2
+
+PEMDAS - order of priority in mathemical operations.
+Parenthesis
+Exponents
+Multiplication
+Division
+Addition
+Subtraction
+
+Rounding a number can be done using the round() fucntion.
+E.g. print(round(123.2223)) - outputs 123
+     print(round(12.6)) - outputs 13
+If need to round to a decimal point - print(round(123.333, 2)) - returns 123.33
+
+Number Manipulation-
+
++= : Adds
+-= : Negates
+*= : Multiplies
+/= : Divides
+
+f-strings are used to print and concatinate multiple datatype
+E.g. print(f"You number is = {number}") - no conversion needed all done by python
+
+
